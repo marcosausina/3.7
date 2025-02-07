@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        function funcion_h3() {
+            document.getElementById("rojo").style.color = "red";
+            document.getElementById("naranja").style.color = "orange";
+            document.getElementById("amarillo").style.color = "yellow";
+            document.getElementById("verde").style.color = "green";
+            document.getElementById("azul_claro").style.color = "lightblue";
+            document.getElementById("azul").style.color = "blue";
+            document.getElementById("morado").style.color = "purple";
+        }
+    </script>
+
+    <h3 onclick="funcion_h3()">Arc de Sant Martí</h3>
+    <p id="rojo" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">roig, red, rojo</p>
+    <p id="naranja" onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">taronja, orange, naranja</p>
+    <p id="amarillo" onmouseover="this.style.color='yellow'" onmouseout="this.style.color='black'">groc, yellow, amarillo</p>
+    <p id="verde" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">verd, green, verde</p>
+    <p id="azul_claro" onmouseover="this.style.color='lightblue'" onmouseout="this.style.color='black'">blau clar, light blue, azul claro</p>
+    <p id="azul" onmouseover="this.style.color='blue'" onmouseout="this.style.color='black'">blau, blue, azul</p>
+    <p id="morado" onmouseover="this.style.color='purple'" onmouseout="this.style.color='black'">morat, purple, morado</p>
+
+</body>
+</html>
